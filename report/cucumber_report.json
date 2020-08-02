@@ -1,0 +1,735 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Validation of 'User Flow' functionality",
+    "line": 2,
+    "id": "validation-of-'user-flow'-functionality",
+    "tags": [
+      {
+        "name": "@Login",
+        "line": 1
+      }
+    ],
+    "uri": "features\\UserFlows.feature",
+    "elements": [
+      {
+        "id": "validation-of-'user-flow'-functionality;userflow_001:-verify-user-sign-in",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Userflow_001: Verify user Sign In",
+        "tags": [
+          {
+            "name": "@Login",
+            "line": 1
+          },
+          {
+            "name": "@Test",
+            "line": 4
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I navigate to the Automation Practice login page",
+            "match": {
+              "location": "stepDefinitions\\UserFlowsSpec.js:55"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6921000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I click on Sign in button",
+            "match": {
+              "location": "stepDefinitions\\UserFlowsSpec.js:60"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1942000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "I enter new user email",
+            "match": {
+              "location": "stepDefinitions\\UserFlowsSpec.js:64"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 306000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I click on Create an account button",
+            "match": {
+              "location": "stepDefinitions\\UserFlowsSpec.js:70"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 170000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "I enter first name",
+            "match": {
+              "location": "stepDefinitions\\UserFlowsSpec.js:74"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1485000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 11,
+            "name": "I enter last name",
+            "match": {
+              "location": "stepDefinitions\\UserFlowsSpec.js:80"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 238000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 12,
+            "name": "I enter password",
+            "match": {
+              "location": "stepDefinitions\\UserFlowsSpec.js:85"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 289000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 13,
+            "name": "I enter day",
+            "match": {
+              "location": "stepDefinitions\\UserFlowsSpec.js:90"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 60000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 14,
+            "name": "I enter month",
+            "match": {
+              "location": "stepDefinitions\\UserFlowsSpec.js:95"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 50000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 15,
+            "name": "I enter year",
+            "match": {
+              "location": "stepDefinitions\\UserFlowsSpec.js:100"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 56000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 16,
+            "name": "I enter company name",
+            "match": {
+              "location": "stepDefinitions\\UserFlowsSpec.js:105"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 213000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 17,
+            "name": "I enter address",
+            "match": {
+              "location": "stepDefinitions\\UserFlowsSpec.js:110"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 211000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 18,
+            "name": "I enter city",
+            "match": {
+              "location": "stepDefinitions\\UserFlowsSpec.js:115"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 198000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 19,
+            "name": "I select state",
+            "match": {
+              "location": "stepDefinitions\\UserFlowsSpec.js:120"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 60000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 20,
+            "name": "I enter zip",
+            "match": {
+              "location": "stepDefinitions\\UserFlowsSpec.js:125"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 188000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 21,
+            "name": "I enter mobile phone number",
+            "match": {
+              "location": "stepDefinitions\\UserFlowsSpec.js:130"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 208000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 22,
+            "name": "I click resgiter button",
+            "match": {
+              "location": "stepDefinitions\\UserFlowsSpec.js:135"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2559000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 23,
+            "name": "I see the my account page",
+            "match": {
+              "location": "stepDefinitions\\UserFlowsSpec.js:139"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 69000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 24,
+            "name": "I see my First name and last name on the right top of the page",
+            "match": {
+              "location": "stepDefinitions\\UserFlowsSpec.js:144"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 62000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      },
+      {
+        "id": "validation-of-'user-flow'-functionality;userflow_002:-verify-home-page-navigation",
+        "keyword": "Scenario",
+        "line": 27,
+        "name": "Userflow_002: Verify HOME page navigation",
+        "tags": [
+          {
+            "name": "@Login",
+            "line": 1
+          },
+          {
+            "name": "@Test",
+            "line": 26
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 28,
+            "name": "I click on Your logo image",
+            "match": {
+              "location": "stepDefinitions\\UserFlowsSpec.js:163"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2275000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 29,
+            "name": "I see Home page is opened",
+            "match": {
+              "location": "stepDefinitions\\UserFlowsSpec.js:167"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 25000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 30,
+            "name": "I see popular tab is selected",
+            "match": {
+              "location": "stepDefinitions\\UserFlowsSpec.js:172"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 25000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 31,
+            "name": "I see  WOMEN, DRESSES, T-SHIRTS tabs on the top",
+            "match": {
+              "location": "stepDefinitions\\UserFlowsSpec.js:176"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 82000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "validation-of-'user-flow'-functionality;userflow_003:-verify-dresses-page-navigation",
+        "keyword": "Scenario",
+        "line": 34,
+        "name": "Userflow_003: Verify DRESSES page navigation",
+        "tags": [
+          {
+            "name": "@Login",
+            "line": 1
+          },
+          {
+            "name": "@Test",
+            "line": 33
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 35,
+            "name": "I click on DRESSES tab",
+            "match": {
+              "location": "stepDefinitions\\UserFlowsSpec.js:196"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5047000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 36,
+            "name": "I see Dresses page is opened",
+            "match": {
+              "location": "stepDefinitions\\UserFlowsSpec.js:200"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 58000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 37,
+            "name": "I see no checkbox is selected",
+            "match": {
+              "location": "stepDefinitions\\UserFlowsSpec.js:205"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 38,
+            "name": "I see All items appeared in Grid view",
+            "match": {
+              "location": "stepDefinitions\\UserFlowsSpec.js:209"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "validation-of-'user-flow'-functionality;userflow_004:-verify-list-view-navigation",
+        "keyword": "Scenario",
+        "line": 41,
+        "name": "Userflow_004: Verify List view navigation",
+        "tags": [
+          {
+            "name": "@Login",
+            "line": 1
+          },
+          {
+            "name": "@Test",
+            "line": 40
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 42,
+            "name": "I click on List view",
+            "match": {
+              "location": "stepDefinitions\\UserFlowsSpec.js:228"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 139000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 43,
+            "name": "I see All items appeared in Lsit view",
+            "match": {
+              "location": "stepDefinitions\\UserFlowsSpec.js:232"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 44,
+            "name": "I see Price is visible for all the results",
+            "match": {
+              "location": "stepDefinitions\\UserFlowsSpec.js:237"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      },
+      {
+        "id": "validation-of-'user-flow'-functionality;userflow_005:-verify--summer-dresses-filter",
+        "keyword": "Scenario",
+        "line": 47,
+        "name": "Userflow_005: Verify  Summer dresses filter",
+        "tags": [
+          {
+            "name": "@Login",
+            "line": 1
+          },
+          {
+            "name": "@Test",
+            "line": 46
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 48,
+            "name": "I click on Summer dresses filetr",
+            "match": {
+              "location": "stepDefinitions\\UserFlowsSpec.js:254"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2518000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 49,
+            "name": "I see page displayes as summer dresses",
+            "match": {
+              "location": "stepDefinitions\\UserFlowsSpec.js:258"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 76000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 50,
+            "name": "I see all result contain the word summer dress",
+            "match": {
+              "location": "stepDefinitions\\UserFlowsSpec.js:263"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "keyword": "Feature",
+    "name": "Validation of user authentication API Functionality",
+    "line": 2,
+    "id": "validation-of-user-authentication-api-functionality",
+    "tags": [
+      {
+        "name": "@Login",
+        "line": 1
+      }
+    ],
+    "uri": "features\\RestAPI.feature",
+    "elements": [
+      {
+        "id": "validation-of-user-authentication-api-functionality;post_001:verify-post-api-response",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Post_001:Verify POST API response",
+        "tags": [
+          {
+            "name": "@Login",
+            "line": 1
+          },
+          {
+            "name": "@Test",
+            "line": 4
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I send a POST request then I see Status code and token",
+            "match": {
+              "location": "stepDefinitions\\RestAPISpec.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 267000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "validation-of-user-authentication-api-functionality;post_002:verify-second-post-api-response",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Post_002:Verify second POST API response",
+        "tags": [
+          {
+            "name": "@Login",
+            "line": 1
+          },
+          {
+            "name": "@Test",
+            "line": 7
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "I send a POST request for users then I see Status code and name, job, id, createdAt",
+            "match": {
+              "location": "stepDefinitions\\RestAPISpec.js:55"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 166000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      },
+      {
+        "id": "validation-of-user-authentication-api-functionality;get_003:verify-get-api-response",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Get_003:Verify GET API response",
+        "tags": [
+          {
+            "name": "@Login",
+            "line": 1
+          },
+          {
+            "name": "@Test",
+            "line": 10
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "I send a GET request for users then I see the email response",
+            "match": {
+              "location": "stepDefinitions\\RestAPISpec.js:81"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 149000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

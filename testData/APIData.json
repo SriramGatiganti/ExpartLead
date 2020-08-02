@@ -1,0 +1,11 @@
+{
+    "postURL1": "https://reqres.in/api/login",
+    "postURL2": "https://reqres.in/api/users",
+    "getURL": "https://reqres.in/api/users/3",
+    "email": "eve.holt@reqres.in",
+    "password": "cityslicka",
+    "name": "Sriram gatiganti",
+    "job": "QA Automation Engineer",
+    "statusCode1": 200,
+    "statusCode2": 201
+}
