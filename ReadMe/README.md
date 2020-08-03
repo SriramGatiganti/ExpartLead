@@ -19,5 +19,5 @@ Steps to Execute:
     •	npm i axios
 
 4.Run below command
-   Protractor config.js 
+   protractor config.js 
 5.Once execution is done then Go to the “report” folder in the project path and open cucumber_report to check the output report
