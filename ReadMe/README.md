@@ -9,15 +9,16 @@ Steps to Execute:
 1.	Clone the project from the given git repo
 2.	Install Node.js server 
 3.	Install below dependencies on the project path
-    npm install
-    npm install --save-dev protractor-cucumber-framework
-    npm i cucumber
-    npm install chai
-    npm i chai-as-promised
-    npm i cucumber-html-reporter
-    npm i axios
-4.Open Command Prompt
+    •	npm install
+    •	npm install --save-dev protractor-cucumber-framework
+    •	npm i cucumber
+    •	npm install chai
+    •	npm i chai-as-promised
+    •	npm i cucumber-html-reporter
+    •	npm i axios
+
+4. Open Command Prompt
 5. Go to Project directory
 6.Run below command
    Protractor config.js 
-7.Go to the “report” folder in the project path and open cucumber_report to check the output report
+7.Once execution is done then Go to the “report” folder in the project path and open cucumber_report to check the output report
